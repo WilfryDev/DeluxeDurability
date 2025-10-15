@@ -1,3 +1,5 @@
+## 🔥 Partner 10% discount on your purchases on [Website](https://cprot.net/)
+![partner](https://cdn.modrinth.com/data/cached_images/b93aa3ea2ac405d138954f35aa09c4177dd7880b.jpeg)
 ## DeluxeDurability 1.0.0 by xPlugins
 
 Un plugin potente y ligero para Minecraft que te permite tomar el control total sobre la durabilidad de los ítems en tu servidor. Olvídate de los límites de vanilla y crea armas, herramientas y armaduras con miles de puntos de durabilidad, comportamientos únicos y lore dinámico.
