@@ -119,5 +119,4 @@ Reinicia o enciende tu servidor.
 
 ¡Configura tus ítems en el archivo plugins/DeluxeDurability/config.yml y disfruta!
 
-👥 Créditos
-Este plugin ha sido diseñado y desarrollado por xPlugins x WillfryDev.
+- Este plugin ha sido diseñado y desarrollado por xPlugins x WillfryDev.
