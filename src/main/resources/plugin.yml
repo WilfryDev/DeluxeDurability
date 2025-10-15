@@ -1,0 +1,10 @@
+name: DeluxeDurability
+version: ${project.version}
+main: jn.willfrydev.deluxedurability.DeluxeDurability
+api-version: 1.19
+authors: [xPlugins, WillfryDev]
+description: Custom item durability system.
+commands:
+  deluxedurability:
+    description: Main command for DeluxeDurability.
+    aliases: [dd]

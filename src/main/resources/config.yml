@@ -1,0 +1,78 @@
+#       ___     _                   ___                 _     _ _ _ _
+#     /   \___| |_   ___  _____   /   \_   _ _ __ __ _| |__ (_) (_) |_ _   _
+#    / /\ / _ \ | | | \ \/ / _ \ / /\ / | | | '__/ _` | '_ \| | | | __| | | |   PLugin by
+#   / /_//  __/ | |_| |>  <  __// /_//| |_| | | | (_| | |_) | | | | |_| |_| |  xPlugins for
+#  /___,' \___|_|\__,_/_/\_\___/___,'  \__,_|_|  \__,_|_.__/|_|_|_|\__|\__, |  Vertix Network
+#                                                                      |___/
+#                    Discord: https://discord.gg/vDcAGTGF3h
+#                        xPlugins 2025 x 777 Studios
+
+# Mensajes usados en comandos y eventos.
+messages:
+  prefix: "&8[&eDeluxeDurability&8] &r"
+  reload: "&aLa configuración se ha recargado exitosamente."
+  no-permission: "&cNo tienes permiso para ejecutar este comando."
+  player-only: "&cEste comando solo puede ser ejecutado por un jugador."
+  item-not-found: "&cEl ítem con la ID '{id}' no fue encontrado."
+  item-given: "&aHas recibido el ítem '{id}'."
+  help:
+    - "&e&lAyuda de DeluxeDurability"
+    - "&e/dd give <item_id> &7- Te entrega un ítem personalizado."
+    - "&e/dd reload &7- Recarga la configuración del plugin."
+    - "&e/dd help &7- Muestra este mensaje de ayuda."
+
+# Define tus ítems personalizados aquí.
+items:
+  CABEZA_ARANA_HALLOWEEN:
+    display-name: "&cCasco de Araña de Halloween"
+    material: PAPER
+    custom-model-data: 10079
+    # Con esta opción, el ítem se equipará en la cabeza al hacer clic derecho.
+    # Valores posibles: HELMET, CHESTPLATE, LEGGINGS, BOOTS
+    equip-slot: HELMET
+    max-durability: 407
+    will-break: true
+    disable-repairing: false
+    lore:
+      - "&7Un casco espeluznante de otra dimensión."
+      - "&7Durabilidad: &f{current}&8/&f{max}"
+
+  PECHERA_ARANA_HALLOWEEN:
+    display-name: "&cPechera de Araña de Halloween"
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10006
+    # Se equipará en el pecho al hacer clic derecho.
+    equip-slot: CHESTPLATE
+    max-durability: 592
+    will-break: true
+    disable-repairing: false
+    dye-color: "156, 54, 33" # Color en formato R, G, B
+    lore:
+      - "&7Una pechera espeluznante de otra dimensión."
+      - "&7Durabilidad: &f{current}&8/&f{max}"
+
+  VARITA_DIAMANTE:
+    display-name: "&bVarita de Diamante"
+    material: DIAMOND_HOE
+    custom-model-data: 1
+    # Al no tener 'equip-slot', este ítem no se auto-equipará.
+    max-durability: 10000
+    will-break: false # Este ítem no se romperá al llegar a 0 de durabilidad.
+    disable-repairing: true
+    lore:
+      - "&7Una varita poderosa con durabilidad inmensa."
+      - "&7Se siente mágica."
+      - "&7Durabilidad: &f{current}&8/&f{max}"
+
+  BOTAS_DE_SANGRE:
+    display-name: "&4Botas de Sangre"
+    material: NETHERITE_BOOTS
+    custom-model-data: 101
+    equip-slot: BOOTS
+    max-durability: 2500
+    will-break: true
+    disable-repairing: false
+    lore:
+      - "&cForjadas en las profundidades del nether."
+      - "&7Durabilidad: &f{current}&8/&f{max}"
+
